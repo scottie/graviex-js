@@ -45,7 +45,7 @@ Here is a full implimentation of the graviex exchange API in a nodejs NPM packag
 # Example
 Install:
 
-    npm install graviex-js
+    npm install graviex
 	
 Example:
 

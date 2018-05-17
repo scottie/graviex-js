@@ -1,12 +1,13 @@
 {
-  "name": "market-maker-graviex",
+  "name": "graviex",
+  "author": "Scott Lindh",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "graviex.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Scott Lindh",
   "license": "ISC",
   "dependencies": {
     "crypto": "^1.0.1",
