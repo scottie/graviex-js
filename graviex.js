@@ -168,11 +168,11 @@ exports.ticker = function(market, callback){
 		var uri = "tickers/" + market;
 		exports.apiRequest(uri, function(result){
 			if(result.success){
-				//return callback(JSON.parse(result.message));
-				console.log(result.message);
+				return callback(JSON.parse(result.message));
+				//console.log(result.message);
 			}else{
-				//return callback(JSON.parse(result.error));	
-				console.log(result.error);
+				return callback(JSON.parse(result.error));	
+				//console.log(result.error);
 
 			}
 		})
